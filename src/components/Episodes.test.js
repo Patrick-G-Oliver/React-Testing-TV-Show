@@ -17,7 +17,8 @@ test("compnent renders list of episodes for selected season", () => {
     expect(episodesRerender).toHaveLength(1);
 });
 
-const mockData = {
+const mockData = [
+    {
     airdate: "2016-07-15",
     airstamp: "2016-07-15T12:00:00+00:00",
     airtime: "",
@@ -37,4 +38,4 @@ const mockData = {
             href: "http://api.tvmaze.com/episodes/553946"
         }
     }
-};
+}];
